@@ -1,0 +1,56 @@
+
+.logo{
+    padding-left: 100;
+    width : 150;
+    height: 150;
+}
+.header-container{
+    margin: 20;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid brown;
+}
+
+.nav-container{
+    padding: 0px 20px;
+}
+
+.nav-container > ul{
+    padding-top: 15;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-container > ul > li{
+    font-size: 24;
+    padding: 10;
+    margin: 10;
+}
+
+.body-container{
+    margin: 20;
+}
+
+.restro-container{
+    margin-top: 10;
+    margin-bottom: 10;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restro-card{
+    background-color: lightgray;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.restro-card:hover{
+    border: 1px solid black;
+}
+
+
+.restro-img{
+    width: 100%;
+}
